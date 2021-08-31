@@ -4,10 +4,8 @@ public  class Pan_Digital_Roman_Number{
     // This is collection of all the char used in Roman Number system
     private String[] check_character = {"I", "V", "X", "L", "C", "D", "M"};
 
-
 	//Use this class to implement your exercise
 	public String checkNumber(int input) {
-	    
 	    
 	      if (number < 2000) {
                 if (!(number < 1)) {
@@ -41,14 +39,12 @@ public  class Pan_Digital_Roman_Number{
                  System.out.println("Enter a Number less than 2000");
 	    
   
-	   
 	     // isTrue is boolean false : it is not a "Pandigital Roman Number", then return "false"
 		return "false";
 	}
 
 
 
-    
     public String intToRoman(int num) {
         
         // Value ranges from 1000-2000 only,  will get their respective value from thousands array, based on position
@@ -99,7 +95,6 @@ public  class Pan_Digital_Roman_Number{
                 baseMap.put(ch, 1);
             }
         }
-        
         
         // Once the all vale is been set, now its time to traves the key and count the repetation of element.
         Set<Character> keys = baseMap.keySet();
