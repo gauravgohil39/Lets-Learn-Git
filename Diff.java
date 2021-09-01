@@ -4,5 +4,6 @@ public class Diff {
         int b = 2;
 
         System.out.println("the product is "+(a-b));
+        
     }
 }
